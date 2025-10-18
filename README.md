@@ -3,9 +3,7 @@
 This repository contains a small ETL that pulls hourly weather data for a list of cities from the Open-Meteo API and writes it into a Postgres table `weather_raw`. A PySpark notebook demonstrates reading the raw table, aggregating daily statistics, and writing a cleaned `weather_clean` table.
 
 Contents
-
-- `etl.py` - Python ETL script that fetches hourly weather and inserts into Postgres.
-- `de.ipynb` - Notebook which contains the ETL and PySpark transformations (already included).
+- `de.ipynb` - Notebook which contains the ETL and PySpark transformations.
 - `requirements.txt` - Python dependencies for running the ETL and notebook.
 
 Quick start

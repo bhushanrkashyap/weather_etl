@@ -40,14 +40,3 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
-4. Run ETL:
-
-```bash
-python etl.py
-```
-
-Notes
-
-- The script assumes a local Postgres instance and default credentials. Update `etl.py` DB_* variables as needed.
-- If you want to push this repository to GitHub, add a remote and run `git push -u origin main`.

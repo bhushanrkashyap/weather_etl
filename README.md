@@ -25,6 +25,13 @@ CREATE TABLE weather_raw (
   temperature DOUBLE PRECISION,
   humidity DOUBLE PRECISION
 );
+
+CREATE TABLE weather_clean (
+    city VARCHAR(50),
+    date DATE,
+    avg_temperature FLOAT,
+    avg_humidity FLOAT
+);
 ```
 
 2. (Optional but recommended) Add a unique constraint to prevent duplicate city+timestamp rows:
